@@ -1,0 +1,64 @@
+section.noticia-3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+}
+
+section.noticia-3 div.card1, div.card2 {
+    
+    margin-right: 100px;
+    width: 300px;
+    height: 300px;
+    background: #610f7a2d;
+    padding: 50px;
+    box-shadow: 4px 4px 10px black;
+    border-radius: 50px 0;
+}
+
+section.noticia-3 div.card1 h2, div.card2 h2 { 
+    display: flex;
+    font-size: 36px;
+    font-family: 'Source Sans Pro', sans-serif;
+   
+    
+}
+
+section.noticia-3 div.card1 img, div.card2 img { 
+    padding-right: 20px;
+}
+
+section.noticia-3 div.card1 p, div.card2 p {
+    padding-top: 40px;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+section.noticia-3 div.card1 button, div.card2 button {
+    
+    
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    opacity: 0.5;
+    background-color: var(--color-pink);
+    filter: brightness(100%); /* Vai diminuir o brilho*/
+    padding: 10px 50px;
+    margin-top: 40px;
+    margin-left: 15px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+section.noticia-3 div.card1 button:hover {
+    background: #530658ee;
+    
+}
+
+section.noticia-3 div.card2 button:hover {
+    background: #520658be
+}

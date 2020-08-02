@@ -1,0 +1,57 @@
+section.noticia-4 {
+    background: #a531c92d;
+    height: 360px;
+    
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 70px;
+    
+
+}
+
+
+section.noticia-4 div.container-discord  {
+    
+    margin-right: 130px;
+    margin-left: 200px;
+    padding-top: 40px;
+
+}
+
+
+
+section.noticia-4 div.container-discord  h2 {
+    font-size: 36px;
+    color: rgb(75, 75, 75);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+section.noticia-4 div.container-discord  p {
+    margin-top: 20px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgba(53, 50, 50, 0.685);
+    line-height: 25px;
+}
+
+section.noticia-4 div.container-discord button {
+     
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    opacity: 0.5;
+    background-color: var(--color-pink);
+    filter: brightness(100%); /* Vai diminuir o brilho*/
+    padding: 10px 70px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 7px;
+    text-align: center;
+    cursor: pointer;
+}
+
+section.noticia-4 div.container-discord button:hover {
+    background: #530658ee;
+}

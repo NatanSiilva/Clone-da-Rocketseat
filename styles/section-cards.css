@@ -1,0 +1,223 @@
+/*============ section cards =================*/
+
+section.section-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    
+}
+
+section.section-cards div.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+section.section-cards div.cards a.card, a.card-2, a.card-3 {
+    background: #a531c92d;;
+    margin-right: 30px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+section.section-cards div.cards a.card, a.card-2, a.card-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    width: 400px;
+    height: 500px;
+    
+}
+
+/* ====== section card-1 ================*/
+
+section.section-cards div.cards a.card div.content-start {
+    display: flex;
+    flex-direction: column;
+}
+
+section.section-cards div.cards a.card div.content-start span { 
+    
+    display: flex;
+    
+    align-items: center;
+    
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color:rgb(113, 89, 193);
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(113, 89, 193);
+    border-image: initial;
+    margin: 0 auto;
+
+}
+
+section.section-cards div.cards a.card div.content-start img {
+    padding-top: 70px;
+    width: 170px;
+    margin: auto;
+}
+
+section.section-cards div.cards a.card div.content-start h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(113, 89, 193);
+    padding-top: 20px;
+}
+
+section.section-cards div.cards a.card div.content-start p {
+    margin: auto;
+    line-height: 17px;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(113, 89, 193);
+}
+
+section.section-cards div.cards a.card:hover {
+    border: 5px solid rgb(113, 89, 193);
+}
+
+ /*================= sectio card-2 ================ */
+
+ section.section-cards div.cards a.card div.content-launchBase {
+    display: flex;
+    flex-direction: column;
+}
+
+section.section-cards div.cards a.card div.content-launchBase span { 
+    
+    display: flex;
+    
+    align-items: center;
+    
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: rgb(253, 149, 31);
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(253, 149, 31);
+    border-image: initial;
+    margin: 0 auto;
+
+}
+
+section.section-cards div.cards a.card div.content-launchBase img {
+    padding-top: 70px;
+    width: 270px;
+    margin: auto;
+}
+
+section.section-cards div.cards a.card div.content-launchBase h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(253, 149, 31);
+    padding-top: 30px;
+    text-align: center;
+
+    
+}
+
+section.section-cards div.cards a.card div.content-launchBase p {
+    
+    
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(253, 149, 31);
+}
+
+section.section-cards div.cards a.card div.content-launchBase p strong {
+    display: flex;
+    justify-content: center;
+}
+
+section.section-cards div.cards a.card:hover {
+    border: 5px solid rgb(253, 149, 31);
+}
+
+
+/*================= sectio card-3 ================ */
+
+
+section.section-cards div.cards a.card div.content-goStack {
+    display: flex;
+    flex-direction: column;
+}
+
+section.section-cards div.cards a.card div.content-goStack span { 
+    
+    display: flex;
+    
+    align-items: center;
+    
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: rgb(4, 211, 97);
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color:rgb(4, 211, 97);
+    border-image: initial;
+    margin: 0 auto;
+
+}
+
+section.section-cards div.cards a.card div.content-goStack img {
+    padding-top: 70px;
+    width: 180px;
+    margin: auto;
+}
+
+section.section-cards div.cards a.card div.content-goStack h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(4, 211, 97);
+    padding-top: 30px;
+    text-align: center;
+
+    
+}
+
+section.section-cards div.cards a.card div.content-goStack p {
+
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(4, 211, 97);
+    text-align: center;
+}
+
+section.section-cards div.cards a.card div.content-goStack button {
+    margin-top: 60px;
+    background: rgb(4, 211, 97);
+    height: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 17px;
+    
+}
+
+section.section-cards div.cards a.card div.content-goStack button:hover {
+    background: rgba(117, 231, 169, 0.945);
+}
+
+
+section.section-cards div.cards a.card:hover {
+    border: 5px solid rgb(4, 211, 97);
+}
+
+footer#rodape-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}

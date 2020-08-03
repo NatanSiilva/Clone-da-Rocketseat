@@ -1,0 +1,38 @@
+.modal {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    
+    opacity: 0;
+    visibility: hidden; 
+}
+
+.modal.active {
+    opacity: 1;
+    visibility: visible; 
+}
+
+
+
+
+.modal .fechar-modal  {
+    color: white;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+    position: absolute;
+    padding-right: 500px;
+    padding-top: 70px;
+    
+}
+
+.content-iframe iframe {
+    width: 1000px;
+    height: 700px;
+}

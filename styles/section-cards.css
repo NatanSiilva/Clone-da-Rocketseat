@@ -81,7 +81,7 @@ section.section-cards div.cards a.card div.content-start p {
 }
 
 section.section-cards div.cards a.card:hover {
-    border: 5px solid rgb(113, 89, 193);
+    border: 5px solid var(--color-pink);
 }
 
  /*================= sectio card-2 ================ */
@@ -140,9 +140,7 @@ section.section-cards div.cards a.card div.content-launchBase p strong {
     justify-content: center;
 }
 
-section.section-cards div.cards a.card:hover {
-    border: 5px solid rgb(253, 149, 31);
-}
+
 
 
 /*================= sectio card-3 ================ */
@@ -212,9 +210,6 @@ section.section-cards div.cards a.card div.content-goStack button:hover {
 }
 
 
-section.section-cards div.cards a.card:hover {
-    border: 5px solid rgb(4, 211, 97);
-}
 
 footer#rodape-2 {
     display: flex;

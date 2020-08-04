@@ -1,6 +1,6 @@
 <h1>Clone-da-Rocketseat</h1> 
 
-<p>O clone do Site Rocktseat é um projeto inspirado em cima do desafio 2.3 do LaunchBase da RocketSeat com foco no <strong>Front-End</strong> , cujo objetivo é desenvolver um site que apresente a empresa e seus cursos conforme o design apresentado</p>
+:clipboard: <p>O clone do Site Rocktseat é um projeto inspirado em cima do desafio 2.3 do LaunchBase da RocketSeat com foco no <strong>Front-End</strong> , cujo objetivo é desenvolver um site que apresente a empresa e seus cursos conforme o design apresentado</p>
 
 
 
@@ -10,15 +10,15 @@
  
 ---
 
-## :bookmark_tabs: Tecnologias Usadas
+## 🚀 Tecnologias Usadas
 
-O projeto foi desemvolvido utilazando as seguintes tecnologias:
+O projeto foi desenvolvido utilazando as seguintes tecnologias:
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JAVASCRIPT](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-## Como baixar o projeto 
+## :computer: Como baixar o projeto 
 
 ```bash
 
@@ -37,4 +37,4 @@ O projeto foi desemvolvido utilazando as seguintes tecnologias:
 
 ---
 
-Desenvolvido By Natanael da Silva 
+Desenvolvido 💜 By Natanael da Silva 
